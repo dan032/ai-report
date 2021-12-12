@@ -1,1 +1,3 @@
-# ai-report
+In chess, typically the player with the most valuable pieces has an advantage, and as such will most likely win. That isn't always the case however, especially in the case where a player has a pawn near the end of the board, threatening to turn that pawn into a queen. A common variation of this endgame is where the white player has a king and a pawn that is about to be promoted, and the other has their king and a rook. The goal of my research was to predict the possibility of white winning due to this position. Utilizing a library called PyCaret, I narrowed down the optimal model to be a Decision Tree Classifier. The tuned model has an accuracy of 98.51%, and when provided with unseen data was capable of properly classifying all game states.
+
+https://youtu.be/0T7CWik61lU
